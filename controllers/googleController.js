@@ -1,3 +1,5 @@
+//creates a constant and sets that constant to  resolve libraries and modules in the Node search path. Basically makes available other functions available in this code set even
+//though the code is elsewhere.
 const axios = require("axios");
 const db = require("../models");
 
